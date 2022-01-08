@@ -3,14 +3,12 @@
 package fs
 
 import (
+	"context"
 	"os"
 	pathpkg "path"
 	"strings"
+	"syscall"
 
-	"golang.org/x/net/context"
-)
-
-import (
 	"bazil.org/fuse"
 )
 
@@ -78,7 +76,7 @@ func (t *tree) add(name string, n Node) {
 }
 
 func (t *tree) Attr(ctx context.Context, a *fuse.Attr) error {
-	a.Mode = os.ModeDir | 0555
+	a.Mode = os.ModeDir | 0o555
 	return nil
 }
 
@@ -87,7 +85,7 @@ func (t *tree) Lookup(ctx context.Context, name string) (Node, error) {
 	if n != nil {
 		return n, nil
 	}
-	return nil, fuse.ENOENT
+	return nil, syscall.ENOENT
 }
 
 func (t *tree) ReadDirAll(ctx context.Context) ([]fuse.Dirent, error) {

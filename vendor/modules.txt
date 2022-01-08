@@ -1,0 +1,96 @@
+# bazil.org/fuse v0.0.0-20200524192727-fb710f7dfd05
+## explicit; go 1.13
+bazil.org/fuse
+bazil.org/fuse/fs
+bazil.org/fuse/fuseutil
+# github.com/BurntSushi/toml v0.2.1-0.20160717150709-99064174e013
+## explicit
+github.com/BurntSushi/toml
+# github.com/Sirupsen/logrus v0.10.1-0.20160716025631-a283a10442df
+## explicit
+github.com/Sirupsen/logrus
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+github.com/davecgh/go-spew/spew
+# github.com/fatih/color v1.0.0
+## explicit
+github.com/fatih/color
+# github.com/fsnotify/fsnotify v1.3.1
+## explicit
+github.com/fsnotify/fsnotify
+# github.com/google/go-github v17.0.0+incompatible
+## explicit
+github.com/google/go-github/github
+# github.com/google/go-querystring v0.0.0-20160401233042-9235644dd9e5
+## explicit
+github.com/google/go-querystring/query
+# github.com/hashicorp/hcl v0.0.0-20160711231752-d8c773c4cba1
+## explicit
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/inconshreveable/mousetrap v1.0.0
+## explicit
+github.com/inconshreveable/mousetrap
+# github.com/magiconair/properties v1.7.1-0.20160724110020-b3f6dd549956
+## explicit
+github.com/magiconair/properties
+# github.com/mattn/go-colorable v0.0.6
+## explicit
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.0-20151211000621-56b76bdf51f7
+## explicit
+github.com/mattn/go-isatty
+# github.com/mitchellh/mapstructure v0.0.0-20160713010219-21a35fb16463
+## explicit
+github.com/mitchellh/mapstructure
+# github.com/ncw/swift v1.0.53
+## explicit
+# github.com/ovh/svfs v0.9.1
+## explicit
+github.com/ovh/svfs/cmd
+github.com/ovh/svfs/config
+github.com/ovh/svfs/svfs
+# github.com/pmezard/go-difflib v1.0.0
+## explicit
+github.com/pmezard/go-difflib/difflib
+# github.com/spf13/cast v0.0.0-20160730092037-e31f36ffc91a
+## explicit
+github.com/spf13/cast
+# github.com/spf13/cobra v0.0.0-20160802223737-7c674d9e7201
+## explicit
+github.com/spf13/cobra
+# github.com/spf13/jwalterweatherman v0.0.0-20160311093646-33c24e77fb80
+## explicit
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v0.0.0-20160804141350-f676131e2660
+## explicit
+github.com/spf13/pflag
+# github.com/spf13/viper v0.0.0-20160718214814-b53595fb56a4
+## explicit
+github.com/spf13/viper
+# github.com/stretchr/testify v1.3.0
+## explicit
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/require
+github.com/stretchr/testify/suite
+# github.com/xlucas/swift v0.0.0-20161222112606-b9756902dc09
+## explicit
+github.com/xlucas/swift
+# golang.org/x/net v0.0.0-20200226121028-0de0cce0169b
+## explicit; go 1.11
+golang.org/x/net/context
+# golang.org/x/sys v0.0.0-20191210023423-ac6580df4449
+## explicit; go 1.12
+golang.org/x/sys/unix
+# gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
+## explicit; go 1.11
+# gopkg.in/yaml.v2 v2.0.0-20160715033755-e4d366fc3c79
+## explicit
+gopkg.in/yaml.v2
